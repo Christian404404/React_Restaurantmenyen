@@ -1,12 +1,13 @@
-import Retter from "./retter.jsx";
-import styles from "./retter.module.css";
+import Dish from "./Dishes.jsx";
+import styles from "./Menu.module.css";
 
-function Dish({}) {
+function Menu({ dishes }) {
   return (
-    <div className={styles.displayGridMeny}>
-      <Retter />
+    <div className={styles.displayGridMenu}>
+      {dishes.map((dish) => (
+        <Dish key={dish.id} dish={dish} />
+      ))}
     </div>
   );
 }
-
-export default Dish;
+export default Menu;

@@ -71,4 +71,4 @@ const menu = [
   },
 ];
 
-export default meny;
+export default menu;

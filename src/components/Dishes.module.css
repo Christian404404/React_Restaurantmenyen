@@ -1,0 +1,26 @@
+.menuCard {
+  background-color: #2a2a2a;
+  border: 1px solid #3a3a3a;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  max-width: 400px;
+  text-align: left;
+  color: #f5f5f5;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.menuCard:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+}
+
+.menuCard h2,
+.menuCard p {
+  background-color: #2a2a2a;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  padding: 0;
+}

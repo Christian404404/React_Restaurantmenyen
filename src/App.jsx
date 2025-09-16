@@ -1,14 +1,14 @@
 import React from "react";
-import menu from "./data/Menu.jsx";
-import Menyen from "./components/menyen.jsx";
+import DataMenu from "./data/DataMenu.jsx";
+import Menu from "./components/Menu.jsx";
 import styles from "./App.module.css";
 
 function App() {
   return (
     <>
-      <div>
+      <div className={styles.container}>
         <h1 className={styles.header}>Restaurant Meny</h1>
-        <Menyen Retter={Meny} />
+        <Menu dishes={DataMenu} />
       </div>
     </>
   );
