@@ -1,4 +1,4 @@
-const meny = [
+const menu = [
   {
     id: 1,
     tittel: "Spaghetti Bolognese",
