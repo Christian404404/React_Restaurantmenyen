@@ -1,0 +1,10 @@
+.header {
+  padding: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: red;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}

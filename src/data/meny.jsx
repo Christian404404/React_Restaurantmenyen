@@ -1,4 +1,4 @@
-export const meny = [
+const meny = [
   {
     id: 1,
     tittel: "Spaghetti Bolognese",
@@ -70,3 +70,5 @@ export const meny = [
     kategori: "Hovedrett",
   },
 ];
+
+export default meny;

@@ -1,14 +1,15 @@
 import React from "react";
-import meny from "./data/meny.jsx";
-import menyen from "./components/menyen.jsx";
-
-import "./App.css";
+import Meny from "./data/meny.jsx";
+import Menyen from "./components/menyen.jsx";
+import Retter from "./components/retter.jsx";
+import "./App.module.css";
 
 function App() {
   return (
     <>
       <div>
-        <h1>Restaurant Meny</h1>
+        <h1 className="header">Restaurant Meny</h1>
+        <Menyen Retter={Meny} />
       </div>
     </>
   );
